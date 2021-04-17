@@ -6,6 +6,11 @@ command: vivado
 tags:
   - proprietary
 
+add-extensions:
+  org.freedesktop.Platform.Locale:
+    directory: share/locale/
+    version: '20.08'
+
 finish-args:
   - --share=ipc
   - --socket=wayland
